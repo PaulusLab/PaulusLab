@@ -1,16 +1,11 @@
-# ------------------
-# Decap CMS Config
-# ------------------
 backend:
   name: github
-  repo: PaulusLab/PaulusLab.github.io # !-- This MUST match your repo
-  branch: main                       # !-- This MUST match your main branch
-  auth_type: oauth
-  app_id: Ov23liuj6TUcb2R4Kyvs   # !-- PASTE YOUR CLIENT ID FROM PART 1
+  repo: PaulusLab/PaulusLab.github.io
+  branch: main
 
 # Where to upload images
-media_folder: "assets/img/uploads" # Where images are saved
-public_folder: "/assets/img/uploads" # How the site accesses them
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
 
 # This is the list of "editable" things for your UI
 collections:
